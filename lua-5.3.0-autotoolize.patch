@@ -152,7 +152,7 @@ diff -up lua-5.3.0/src/lua.pc.in.autoxxx lua-5.3.0/src/lua.pc.in
 +Description: An Extensible Extension Language
 +Version: ${R}
 +Requires:
-+Libs: -llua @LUA_LIBS@
++Libs: -L${libdir} -llua @LUA_LIBS@
 +Cflags: -I${includedir}
 diff -up lua-5.3.0/src/Makefile.am.autoxxx lua-5.3.0/src/Makefile.am
 --- lua-5.3.0/src/Makefile.am.autoxxx	2015-01-15 10:20:03.826889574 -0500
