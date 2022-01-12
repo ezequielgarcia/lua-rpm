@@ -8,11 +8,11 @@ Release:        1%{?dist}
 Summary:        Powerful light-weight programming language
 Group:          Development/Languages
 License:        MIT
-URL:            http://www.lua.org/
-Source0:        http://www.lua.org/ftp/lua-%{version}.tar.gz
+URL:            https://www.lua.org/
+Source0:        https://www.lua.org/ftp/lua-%{version}.tar.gz
 # copied from doc/readme.html on 2014-07-18
 Source1:        mit.txt
-Source3:        http://www.lua.org/tests/lua-5.3.4-tests.tar.gz
+Source3:        https://www.lua.org/tests/lua-5.3.4-tests.tar.gz
 # multilib
 Source4:        luaconf.h
 Patch0:         lua-5.3.0-autotoolize.patch
