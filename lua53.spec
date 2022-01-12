@@ -146,7 +146,6 @@ echo %{_libdir} > $RPM_BUILD_ROOT%{_sysconfdir}/ld.so.conf.d/lua%{major_version}
 * Wed Mar 15 2017 Ezequiel Garcia <ezequiel@vanguardiasur.com.ar> - 5.3.6-1
 - Bump to v5.3.6 which fixes all the bugs we patched
 - Fix configure.ac allowing to remove readline
-- Remove readline
 
 * Wed Mar 15 2017 Marus Berglof <marcus.berglof@gmail.com> - 5.3.3-4
 - Remove %man
